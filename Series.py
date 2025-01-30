@@ -1,5 +1,4 @@
 # Serie sumatoria de n
-
 def sumatoria(n):
     suma = 0
     l=[]
@@ -7,7 +6,6 @@ def sumatoria(n):
         suma += i
         l.append(suma)
     return l
-
 
 #s Serie fibonacci 
 def fibonacci(n):
@@ -23,3 +21,18 @@ def fibonacci(n):
         l.append(b)
     return l
     
+#Tarea Joselin Medina:
+def factorial(n):
+  """
+  Esta función calcula el factorial de un número.
+
+  Args:
+    n: El número del cual se calculará el factorial.
+
+  Returns:
+    El factorial de n.
+  """
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n-1)
